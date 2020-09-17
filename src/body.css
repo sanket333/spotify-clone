@@ -1,0 +1,32 @@
+.body{
+    padding : 30px;
+    flex : 0.8;
+    overflow-y: scroll;
+    background : linear-gradient(rgb(91,87,115),rgba(0,0,0,1));
+    height : 90vh;
+    color : white;
+}
+
+.body_infoImage {
+    
+    object-fit: contain;
+    height : 20vw;
+    margin : 0 20px;
+}
+
+.body_info {
+    display: flex;
+    align-items: flex-end;
+    padding : 10px;
+}
+
+.body_infoText {
+    flex : 1;
+}
+.body_infoText > h2 {
+    font-size : 48px;
+    margin-bottom: 10px;
+}
+.body_infoText > p{
+    font-size : 14px;
+}
